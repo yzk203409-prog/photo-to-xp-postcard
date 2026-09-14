@@ -1,0 +1,13 @@
+interface:
+  display_name: 照片明信片研究页
+  short_description: 将每张照片分别转成奶油纸、水彩画与配色圆点组成的明信片研究页
+  default_prompt: Use $photo-study-postcard 将我上传的每张照片分别生成一张统一风格的明信片研究页。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
