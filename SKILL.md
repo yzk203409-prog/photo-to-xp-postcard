@@ -29,7 +29,7 @@ Build each sheet on warm cream, lightly textured paper in a clean editorial comp
 
 1. Inspect every uploaded image and list the independent sources internally.
 2. Generate each output separately. When several images are provided, make separate image-generation calls rather than a single multi-subject generation.
-3. Include the corresponding source photo as the primary reference for that output. When helpful, also include `assets/photo-to-sketch-reference.jpg` to ground the photo-to-hand-drawn relationship; use it only as a style reference and exclude its phone interface or exact architecture.
+3. Include the corresponding source photo as the primary reference for that output. When helpful, use the finished examples in `assets/example-01.png` through `assets/example-06.png` to ground the layout, cream-paper treatment, watercolor-and-pencil relationship, typography, and swatches. Treat them only as style references: never copy their subjects, wording, or scene details into the new output.
 4. State explicitly in the generation prompt that only one source scene may appear and that no collage, contact sheet, multi-panel comparison, or unrelated subject may be added.
 5. Verify that the output contains one source scene, one watercolor interpretation of that same scene, three swatches, cream paper, and no other uploaded photo.
 6. Return every generated image individually and preserve the input order.

@@ -2,7 +2,13 @@
 
 把普通照片转换成统一风格的奶油纸水彩明信片研究页，适用于 ChatGPT 和 Codex。
 
-![Style reference](assets/photo-to-sketch-reference.jpg)
+## 示例
+
+| 示例 1 | 示例 2 |
+| --- | --- |
+| ![示例 1](assets/example-01.png) | ![示例 2](assets/example-02.png) |
+| ![示例 3](assets/example-03.png) | ![示例 4](assets/example-04.png) |
+| ![示例 5](assets/example-05.png) | ![示例 6](assets/example-06.png) |
 
 ## 功能
 
@@ -38,5 +44,10 @@ $skill-installer https://github.com/yzk203409-prog/photo-to-xp-postcard
 │   └── openai.yaml
 └── assets/
     ├── icon.svg
-    └── photo-to-sketch-reference.jpg
+    ├── example-01.png
+    ├── example-02.png
+    ├── example-03.png
+    ├── example-04.png
+    ├── example-05.png
+    └── example-06.png
 ```
