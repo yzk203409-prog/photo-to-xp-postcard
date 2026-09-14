@@ -24,7 +24,7 @@ $skill-installer https://github.com/yzk203409-prog/photo-to-xp-postcard
 ## 使用
 
 ```text
-使用 $photo-study-postcard 将我上传的每张照片分别生成一张明信片研究页。
+使用 $photo-to-xp-postcard 将我上传的每张照片分别生成一张明信片研究页。
 ```
 
 也可以直接上传图片，并说明“按照明信片研究页格式生成”。

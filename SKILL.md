@@ -1,9 +1,9 @@
 ---
-name: photo-study-postcard
+name: photo-to-xp-postcard
 description: Turn one or more uploaded photos into matching cream-paper postcard study sheets that pair a framed faithful scene with a watercolor-and-pencil reinterpretation, minimalist labels, and three scene-derived color swatches. Use when the user asks for the same postcard layout, a photo study card, a watercolor postcard treatment, or uploads images in an established postcard-study context. Generate every uploaded source as a separate image; never merge different source photos into one composition unless the user explicitly asks for a collage.
 ---
 
-# Photo Study Postcard
+# Photo to XP Postcard
 
 Create polished portrait-format postcard study sheets from the user's photos with image generation or image editing.
 
