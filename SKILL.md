@@ -5,7 +5,7 @@ description: Turn one or more uploaded photos into highly consistent 3:4 cream-p
 
 # Photo to XP Postcard
 
-Create polished postcard study sheets from the user's photos with image generation or image editing. Match the composition and finish of `assets/canonical-portrait-01.jpg` and `assets/canonical-portrait-02.jpg`; treat the other bundled examples as secondary subject references only.
+Create polished postcard study sheets from the user's photos with image generation or image editing. Match the composition and finish of `assets/canonical-layout.jpg`; treat the other bundled examples as secondary subject references only.
 
 ## Non-negotiable output rule
 
@@ -32,7 +32,7 @@ Build every sheet on warm ivory-cream, lightly fibrous paper with quiet negative
 ## Required style reference
 
 - Always pass the source photo as reference image 1 and exactly one canonical finished sheet as reference image 2.
-- Use `assets/canonical-portrait-01.jpg` for landscape, nature, architecture, street, and general scenes. Use `assets/canonical-portrait-02.jpg` for sky, animals, motion, and spacious scenes.
+- Always use `assets/canonical-layout.jpg` as the style-and-layout reference, regardless of the source subject. A single reference keeps the layout consistent across different users and chats.
 - In the generation prompt, identify reference image 1 as the only content source and reference image 2 as style-and-layout only. Explicitly forbid copying any subject, title, wording, birds, trees, or clouds from the style reference.
 - Do not pass all six secondary examples to the generator. They vary in layout and reduce consistency. Inspect `assets/example-01.png` through `assets/example-06.png` only when a difficult subject needs additional visual guidance; never use more than one secondary example in the actual generation call.
 
